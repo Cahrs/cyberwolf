@@ -458,8 +458,8 @@ function love.draw()
 
         love.graphics.setColor(1, 0, 0, 1)
         love.graphics.print("Score: " .. score, pixel_size, win_dim.y - pixel_size * 3)
-        love.graphics.print("Lives: " .. lives, pixel_size * 7, win_dim.y - pixel_size * 3)
-        love.graphics.print("Wave: " .. wave, pixel_size * 24, win_dim.y - pixel_size * 3)
+        love.graphics.print("Lives: " .. lives, pixel_size * 11, win_dim.y - pixel_size * 3)
+        love.graphics.print("Wave: " .. wave, pixel_size * 22, win_dim.y - pixel_size * 3)
 
         love.graphics.setColor(1, 1, 1, 1)
 
